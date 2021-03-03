@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet"> 
+<style>
+    .mainimg {
+        width: 100%;
+        height: auto;
+    }
+    .navbar #icon {
+        height: 30px;
+        width: auto;
+    }
+    .navbar {
+        position: fixed;
+        top: 0;
+        display: flex;
+        max-height: 80px;
+        width: 100vw;
+        min-height: 80px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: aliceblue;
+    }
+
+    .navbar a {
+        color:black;
+        font-family: monospace;
+        font-size: 20px;
+        line-height: 10px;
+        text-align: center;
+    }
+
+    .navbar #left {
+        width: 60px;
+        margin-left: 20px;
+        min-width: 0;
+    }
+    .navbar #center {
+        width: 80vw;
+    }
+    .navbar #title {
+        text-align: center;
+        font-size: 45px;
+        font-family: "Caveat", cursive;
+        line-height: 15px;
+    }
+    .navbar #right {
+        width:60px;
+        min-width: 0;
+        margin-right:20px;
+        align-items: flex-end;
+    }
+
+    footer {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer p {
+        text-align: center;
+        font-family: monospace;
+        line-height: 15px;
+    }
+    footer a {
+        color: black;
+    }
+
+    @media (max-width: 700px) {
+        .navbar #title {
+            font-size: 35px;
+        }
+    }
+
+</style>
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <nav class="navbar">
+            <div id="left"><a href="./releases.html">releases</a></div>
+            <div id="center"><h1 id="title">Out for Lunch</h1></div>
+            <div id="right">
+                <a href="https://open.spotify.com/artist/6s2Tpew2IbZPtD3nGm11bj?si=6UzWB8IaRMq5SMVS3Pzh7w"><img id="icon" src="./spotify_black.png" alt="SPOTIFY"></a>
+            </div>
+            
+        </nav>
+
+        <img class="mainimg" src="./landingcropped.jpg" alt="oh no">
+
+        
+        <script src="" async defer></script>
+    </body>
+    <footer>
+        <p>&copy; 2021 Out for Lunch <br> Designed by <a href="https://github.com/dylanleclair" target="_blank">Dylan Leclair</a></p>
+    </footer>
+</html>
